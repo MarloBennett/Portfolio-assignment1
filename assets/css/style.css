@@ -1,0 +1,616 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -72px;
+}
+
+.footer, .push {
+	height: 72px;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url(../images/fresh_snow.png);
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: solid 1px #cccccc;
+	clear: right;
+	overflow: auto;
+}
+
+header h2 {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 125px;
+	margin-top: 0px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 150%;
+	padding-bottom: 12px;
+}
+
+header a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #cc3399;
+}
+
+header a:visited {
+	color: #cc3399;
+}
+
+h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 10px;
+	margin-top: 20px;	
+}
+
+h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+}
+
+.name {
+	float: left;
+	width: 610px;
+	margin-left: 70px;
+	margin-right: 75px;
+}
+
+.links {
+	float: left;
+	width: 270px;	
+	margin-top: 20px;
+}
+
+.main {
+	float: left;
+	width: 610px;
+	margin: 20px 20px 20px 70px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;	
+}
+
+.port-main {
+	float: left;
+	width: 610px;
+	height: 770px;
+	margin: 20px 20px 20px 70px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;	
+}
+
+.sidebar {
+	float: left;
+	width: 175px;	
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+.bio-text {
+	padding-top: 20px;
+}
+
+footer {
+	background-color: #666666;
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	color: #ffffff;
+	border-top: 6px solid #4aaaa5;
+}
+
+footer p {
+	font-size: 12px;
+}
+
+.bio-image {
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.logo-image {
+	width: 50px;
+	padding-top: 20px;
+}
+
+input {
+	padding: 10px;
+	margin: 10px 0;
+	width: 580px;
+	font-size: 16px;
+}
+
+form {
+	padding-top: 20px;	
+	font-size: 16px;
+}
+
+textarea {
+	padding: 10px;
+	margin: 10px 0;
+	width: 580px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 100px;
+}
+
+.port-container {
+	width: 610px;
+	position: relative;
+}
+
+.port-image-1 {
+	width: 285px;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+}
+
+.port-image-2 {
+	width: 285px;
+	position: absolute;
+	left: 320px;
+	top: 20px;
+}
+
+.port-image-3 {
+	width: 285px;
+	position: absolute;
+	left: 0px;
+	top: 260px;
+}
+
+.port-image-4 {
+	width: 285px;
+	position: absolute;
+	left: 320px;
+	top: 260px;
+}
+
+.port-image-5 {
+	width: 285px;
+	position: absolute;
+	left: 0px;
+	top: 500px;
+}
+
+.port-text-1 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 0px;
+	top: 165px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-2 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 320px;
+	top: 165px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-3 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 0px;
+	top: 405px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-4 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 320px;
+	top: 405px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+.port-text-5 {
+	z-index: 100;
+	position: absolute;
+	color: #ffffff;
+	left: 0px;
+	top: 645px;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 245px;
+}
+
+@media screen and (max-width: 980px) {
+
+	.name {
+		width: 50%;
+		margin: 0 0 0 10%;
+	}
+
+	.links {
+		width: 30%;	
+		float: right;	
+	}
+	
+	.main {
+		width: 50%;
+		margin-left: 10%;
+	}
+
+	.port-main {
+	width: 50%;
+	height: 100%;
+	margin: 20px 20px 20px 10%;
+	}
+
+	.port-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-bottom: 20px;
+	}
+
+	.port-image-1 {
+	width: 100%;
+	position: relative;
+	}
+
+	.port-image-2 {
+	width: 100%;
+	position: relative;
+	left: 0px;
+	}
+
+	.port-image-3 {
+	width: 100%;
+	position: relative;
+	top: 20px;
+	}
+
+	.port-image-4 {
+	width: 100%;
+	position: relative;
+	left: 0px;
+	top: 20px;
+	}
+
+	.port-image-5 {
+	width: 100%;
+	position: relative;
+	top: 20px;
+	}
+
+	.port-text-1 {
+	top: 80%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	}
+
+	.port-text-2 {
+	left: 0px;
+	top: 80%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	}
+
+	.port-text-3 {
+	top: 80%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	}
+
+	.port-text-4 {
+	left: 0px;
+	top: 80%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	}
+
+	.port-text-5 {
+	top: 80%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	}
+
+	.sidebar {
+		width: 20%;
+	}
+
+	.bio-image {
+		width: 100%;
+	}
+
+	input {
+		width: 95%;
+	}
+
+	textarea {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.name {
+		width: 30%;
+		margin: 0 0 0 3%;
+	}
+
+	.links {
+		width: 30%;	
+		float: right;	
+		margin-right: 3%;
+	}
+
+	.main {
+	width: 88%;
+	margin-left: 3%;
+	margin-right: 3%;
+	}
+
+	.port-main {
+	width: 88%;
+	height: 100%;
+	margin: 20px 3% 20px 3%;
+	padding-bottom: 80%;
+	}
+
+	.port-container {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	margin-top: 3%;
+	}
+
+	.port-image-1 {
+	width: 95%;
+	position: absolute;
+	left: 0px;
+	top: 5%;
+	}
+
+	.port-image-2 {
+	width: 95%;
+	position: absolute;
+	left: 100%;
+	top: 5%;
+	margin-left: 2%;
+	margin-top: -12%;
+	}
+
+	.port-image-3 {
+	width: 95%;
+	position: absolute;
+	left: 0px;
+	margin-top: 47%;
+	}
+
+	.port-image-4 {
+	width: 95%;
+	position: absolute;
+	left: 100%;
+	margin-top: 35%;
+	margin-left: 2%;
+	}
+
+	.port-image-5 {
+	width: 95%;
+	position: absolute;
+	left: 0px;
+	margin-top: 100%;
+	}
+
+	.port-text-1 {
+	position: absolute;
+	left: 0px;
+	margin-top: 45%;
+	padding: 20px 0 20px 0;
+	width: 95%;
+	}
+
+	.port-text-2 {
+	position: absolute;
+	left: 100%;
+	margin-top: 33%;
+	padding: 20px 0 20px 0;
+	width: 95%;
+	margin-left: 2%;
+	}
+
+	.port-text-3 {
+	position: absolute;
+	left: 0px;
+	margin-top: 98%;
+	padding: 20px 0 20px 0;
+	width: 95%;
+	}
+
+	.port-text-4 {
+	position: absolute;
+	left: 100%;
+	margin-top: 86%;
+	padding: 20px 0 20px 0;
+	width: 95%;
+	margin-left: 2%;
+	}
+
+	.port-text-5 {
+	position: absolute;
+	left: 0px;
+	margin-top: 150%;
+	padding: 20px 0 20px 0;
+	width: 95%;
+	}
+	
+	.bio-image {
+	width: 50%;
+	}
+
+	.sidebar {
+	width: 88%;	
+	margin: 0 3% 20px 3%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	header {
+		position: static;
+	}
+
+	.name {
+	width: 100%;
+	margin: 0 0 10px 0;
+	}
+
+	header h2 {
+	width: 100%;
+	text-align: center;
+	}
+
+	.links {
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+		float: none;
+		margin: 0 0 10px 0;
+		word-spacing: 10px;
+	}
+
+	.port-container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding-bottom: 20px;
+	}
+
+	.port-main {
+		padding-bottom: 20px;
+	}
+
+	.port-image-1 {
+	width: 100%;
+	position: relative;
+	}
+
+	.port-image-2 {
+	width: 100%;
+	position: relative;
+	left: 0px;
+	top: 0;
+	margin-top: 0;
+	margin-left: 0;
+	}
+
+	.port-image-3 {
+	width: 100%;
+	position: relative;
+	margin-top: 0;
+	top: 0;
+	}
+
+	.port-image-4 {
+	width: 100%;
+	position: relative;
+	left: 0px;
+	top: 0;
+	margin-top: 0;
+	margin-left: 0;
+	}
+
+	.port-image-5 {
+	width: 100%;
+	position: relative;
+	top: 0;
+	margin-top: 0;
+	}
+
+	.port-text-1 {
+	top: 20%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	}
+
+	.port-text-2 {
+	left: 0px;
+	top: 35%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	margin-left: 0;
+	}
+
+	.port-text-3 {
+	top: 1%;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	margin-top: 60%;
+	}
+
+	.port-text-4 {
+	left: 0px;
+	top: 0;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	margin-top: 60%;
+	margin-left: 0;
+	}
+
+	.port-text-5 {
+	top: 0;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	margin-top: 60%;
+	}
+
+	.bio-image {
+		width: 100%;
+	}
+	
+}
