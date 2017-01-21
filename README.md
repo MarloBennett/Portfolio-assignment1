@@ -1,6 +1,6 @@
 # Portfolio-assignment1
 
-Creates a one-page portfolio website to match supplied images and allow for different screen sizes.
+Creates a multi-page portfolio website to match supplied images and allow for different screen sizes.
 
 Technologies used:
 * HTML
